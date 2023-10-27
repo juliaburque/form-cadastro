@@ -1,0 +1,59 @@
+/* CSS reset */
+*, *:before, *:after { 
+    margin:70;
+    padding:0;
+    font-family: Arial,sans-serif;
+    text-align: center;
+  }
+   
+  /* remove a linha dos links */
+  a{
+    text-decoration: none;
+  }
+   
+  /* esconde as ancoras da tela */
+  a.links{
+    display: none;
+  }
+  form{  
+    position:absolute; 
+    width: 698px;
+    background: -webkit-linear-gradient(left,rgba(19, 73, 155, 0.8) 20%,rgb(30, 89, 165) 53%,rgba(75, 116, 202, 0.8) 79%); }
+
+  P{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+div{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.botao{
+  background-color: rgb(17, 64, 196);
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.botao:hover{
+  color: rgb(106, 186, 223);
+  transform: scale(1.2)
+}
+
+
+label#endereco{
+  position: absolute;
+  left: 189px;
+}
+label#Número{
+  position: absolute;
+  left: 200px;
+}
+label#Cidade{
+  position: absolute;
+  left: 208px;
+}
+label#Bairro{
+  position: absolute;
+  left: 215px;
+}
+label#Estado{
+  position: absolute;
+  left: 209px;
+}
